@@ -14,8 +14,8 @@ def hello():
     db = client.company
     people = db.people
     people_data = {
-        'name' : 'Jean',
-        'lastname' : 'Herrera'
+        'name' : 'Max',
+        'lastname' : 'Mustermann'
     }
 
     result = people.insert_one(people_data)
